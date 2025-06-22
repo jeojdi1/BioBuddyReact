@@ -146,12 +146,12 @@ print(f"Threat Level: {threat_level:.1f}%")`
             Built to withstand the harshest outdoor conditions, BioBuddy devices feature:
           </p>
           <ul style={{ fontSize: '1.1rem', lineHeight: '1.6', color: 'var(--gray-700)', marginTop: '1rem' }}>
-            <li>IP67 waterproof rating for complete protection against dust and water</li>
-            <li>Operating temperature range of -40°F to 140°F (-40°C to 60°C)</li>
-            <li>Military-grade shock resistance (MIL-STD-810G)</li>
+            <li> Highly responsive to voice commands+voice isolation.</li>
+            <li>Operating temperature range in large temmpurature ranges.</li>
+            <li>High Level of hock resistance</li>
             <li>Extended battery life supporting 48-hour continuous detection</li>
             <li>100% offline operation - no internet required</li>
-            <li>Advanced sensor array including thermal imaging, motion detection, and audio analysis</li>
+            <li>Advanced sensor array including motion detectio and audio analysis</li>
           </ul>
         </div>
 

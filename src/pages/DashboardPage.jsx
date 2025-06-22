@@ -89,21 +89,21 @@ const DashboardPage = () => {
     { 
       id: 1, 
       name: 'BioBuddy', 
-      price: '$199', 
+      price: '$59.99', 
       description: 'Advanced AI wildlife detection system with smart decision engine', 
       inStock: true
     },
     { 
       id: 2, 
       name: 'BioBuddy Mount', 
-      price: '$69', 
+      price: '$29.99', 
       description: 'Rugged mount with motorized range maintenance and sensors', 
       inStock: true
     },
     { 
       id: 3, 
       name: 'Camera for BioBuddy', 
-      price: '$49', 
+      price: '$19.99', 
       description: 'Enhanced camera with advanced detection capabilities', 
       inStock: true
     }
@@ -226,7 +226,7 @@ const DashboardPage = () => {
               <p>{product.description}</p>
               <div className="product-meta">
                 <span className="price">{product.price}</span>
-                <span className={`stock ${product.inStock ? 'in-stock' : 'out-of-stock'}`}>{product.inStock ? 'In Stock' : 'Out of Stock'}</span>
+                <span className={`stock ${product.inStock ? 'in-stock' : 'out-of-stock'}`}>{product.inStock ? '\nIn Stock' : 'Out of Stock'}</span>
               </div>
             </div>
           </div>
